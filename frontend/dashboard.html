@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">🎓 PlacementPro</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+             <button onclick="logout()">Logout</button>
+        </nav>
+    </header>
+
+
+    <main class="dashboard">
+
+        <section class="dashboard-welcome">
+
+           <h1>Welcome, <span id="studentName">Student</span> 👋</h1>
+
+            <p>
+                Track your placement journey and explore
+                new career opportunities.
+            </p>
+
+        </section>
+
+
+        <section class="dashboard-cards">
+
+            <div class="dashboard-card">
+                <div class="dashboard-icon">👤</div>
+                <h3>My Profile</h3>
+                <p>Manage your personal and academic details.</p>
+                <button onclick="location.href='profile.html'">
+    View Profile
+</button>
+            </div>
+
+
+            <div class="dashboard-card">
+                <div class="dashboard-icon">🏢</div>
+                <h3>Companies</h3>
+                <p>Explore available companies and job opportunities.</p>
+                <button onclick="location.href='companies.html'">
+                     View Companies
+                </button>
+            </div>
+
+
+            <div class="dashboard-card">
+                <div class="dashboard-icon">📄</div>
+                <h3>My Applications</h3>
+                <p>Track your job applications and their status.</p>
+                <button onclick="location.href='applications.html'">
+                      View Applications
+                </button>
+            </div>
+
+
+            <div class="dashboard-card">
+                <div class="dashboard-icon">🎯</div>
+                <h3>Eligibility</h3>
+                <p>Check companies you are eligible to apply for.</p>
+                <button onclick="location.href='eligibility.html'">
+    Check Eligibility
+</button>
+            </div>
+
+        </section>
+
+
+        <section class="placement-status">
+
+            <h2>Placement Status</h2>
+
+            <div class="status-box">
+
+                <div>
+                    <h3>Applications</h3>
+                    <p>0</p>
+                </div>
+
+                <div>
+                    <h3>Interviews</h3>
+                    <p>0</p>
+                </div>
+
+                <div>
+                    <h3>Offers</h3>
+                    <p>0</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 PlacementPro | Student Placement Management System</p>
+    </footer>
+
+</body>
+
+</html>
